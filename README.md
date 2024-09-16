@@ -14,7 +14,8 @@ El laboratorio contiene:
 4. Un programa para la optimización de 3 algoritmos sin restricción: Método de Newton, Método del Gradiente Descendente, y método BFGS. 
 
 ----------------------------------------------------
-Conclusiones Punto4:
+**Conclusiones Punto4:**
+
 Los 3 algoritmos de optimización sin restricciones presentan resultados distintos. Para determinar el efecto que tiene cambiar sus parámetros es necesario analizar la tasa de aprendizaje, número de iteraciones y el punto inicial. 
 
 En cuanto a la tasa de aprendizaje, escoger un valor de Alpha adecuado permitirá que se de una convergencia rápida y dará un equilibrio al algoritmo en el Gradiente Descendente. En  casos contrarios, un Alpha grande lo aleja de su convergencia, y un Alpha muy pequeño puede incurrir a un tiempo de convergencia lento. En los algoritmos utilizando método de Newton y BFGS no dependen de un valor de alpha, ya que, utilizan la información del gradiente y hessiano, sin embargo este último puede llegar a ser computacionalmente costoso en problemas de alta dimensión. 

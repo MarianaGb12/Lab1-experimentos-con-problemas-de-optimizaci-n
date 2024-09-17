@@ -101,8 +101,8 @@ class LPModelApp(tk.Tk):
         model_window.configure(bg="#481F67")
 
         tk.Label(model_window, text="1. Definición de las variables de decisión:", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
-        tk.Label(model_window, text=f"   {var_x}: {var_x}", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
-        tk.Label(model_window, text=f"   {var_y}: {var_y}", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
+        tk.Label(model_window, text=f"   X: {var_x}", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
+        tk.Label(model_window, text=f"   Y: {var_y}", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
 
         tk.Label(model_window, text="2. Función Objetivo:", bg="#481F67", fg="#FFFFFF").pack(anchor="w")
         tk.Label(model_window, text=f"   {funcion_objetivo}", bg="#481F67", fg="#FFFFFF").pack(anchor="w")

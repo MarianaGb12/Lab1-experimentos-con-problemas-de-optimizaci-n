@@ -11,7 +11,7 @@ def csr_method(matrix):
     nnz = 0  # Contador de elementos distintos de cero
 
     # Iteración sobre filas
-    for i in matrix:
+    for i in matrix: 
         for j, val in enumerate(i):  # Encontrar cambio en columna
             if val != 0:
                 data.append(val)
